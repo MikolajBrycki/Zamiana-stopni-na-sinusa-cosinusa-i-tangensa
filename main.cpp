@@ -1,4 +1,4 @@
-//Miko≥aj Brycki
+//Miko≈Çaj Brycki
 #include <iostream>
 #include <math.h>
 double sin( double );
