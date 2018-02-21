@@ -14,7 +14,9 @@ int main()
     cout<< "Jesli chcesz sinusa wpisz 1"<<endl;
     cout<< "Jesli chcesz cosinusa wpisz 2"<<endl;
     cout<< "Jesli chcesz tangensa wpisz 3"<<endl;
-    cout<< "Wpisz liczbe 1,2 lub 3: ";
+    cout<< "Jesli chcesz cotangesa wpisz 4"<<endl;
+    cout<<""<<endl;
+    cout<< "Wpisz liczbe 1,2,3 lub 4: ";
     cin>>x;
     cout<< ""<<endl;
     cout<< "Podaj kat: ";
@@ -36,6 +38,12 @@ int main()
         double radian =( stopien * M_PI ) / 180.0f;
     cout<< ""<<endl;
     cout << "tan(" << stopien << ")=" << tan( radian ) << endl;
+    }
+    if(x==4)
+    {
+        double radian =( stopien * M_PI ) / 180.0f;
+    cout<< ""<<endl;
+    cout<< "ctan("<<stopien<< ")="<<(cos(radian))/(sin(radian))<<endl;
     }
     return 0;
 }
